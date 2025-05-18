@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Заготовки</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            font-size: 2rem;
+            color: #333;
+            margin: 20px 0;
+            text-align: center;
+        }
+        .category-container {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            width: 90%;
+            max-width: 400px;
+        }
+        .back-button-container {
+            width: 90%;
+            max-width: 400px;
+            margin: 10px 0;
+        }
+        a {
+            text-decoration: none;
+            width: 100%;
+        }
+        button {
+            padding: 15px;
+            font-size: 1.2rem;
+            border: none;
+            border-radius: 8px;
+            background-color: #6200ea;
+            color: white;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            width: 100%;
+        }
+        button:hover {
+            background-color: #3700b3;
+        }
+        .back-button {
+            background-color: #757575;
+        }
+        .back-button:hover {
+            background-color: #616161;
+        }
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 1.5rem;
+            }
+            button {
+                font-size: 1rem;
+                padding: 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="back-button-container">
+        <a href="index.html"><button class="back-button">Назад</button></a>
+    </div>
+    <h1>Заготовки</h1>
+    <div class="category-container">
+        <a href="Заготовки/Заготовки/index.html"><button>Заготовки</button></a>
+        <a href="Заготовки/Настойки/index.html"><button>Настойки</button></a>
+        <a href="Заготовки/Кордиалы/index.html"><button>Кордиалы</button></a>
+    </div>
+</body>
+</html>

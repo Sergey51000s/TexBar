@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Заготовки</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            font-size: 2rem;
+            color: #333;
+            margin: 20px 0;
+            text-align: center;
+        }
+        .back-button-container {
+            width: 90%;
+            max-width: 400px;
+            margin: 10px 0;
+        }
+        .recipe-container {
+            width: 90%;
+            max-width: 600px;
+            margin-bottom: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 15px;
+            background-color: white;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: left;
+            font-size: 1rem;
+        }
+        th {
+            background-color: #6200ea;
+            color: white;
+        }
+        a {
+            text-decoration: none;
+            width: 100%;
+        }
+        button {
+            padding: 15px;
+            font-size: 1.2rem;
+            border: none;
+            border-radius: 8px;
+            background-color: #6200ea;
+            color: white;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            width: 100%;
+        }
+        button:hover {
+            background-color: #3700b3;
+        }
+        .back-button {
+            background-color: #757575;
+        }
+        .back-button:hover {
+            background-color: #616161;
+        }
+        ol {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 1.5rem;
+            }
+            th, td {
+                font-size: 0.9rem;
+                padding: 8px;
+            }
+            button {
+                font-size: 1rem;
+                padding: 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="back-button-container">
+        <a href="../../zagotowki.html"><button class="back-button">Назад</button></a>
+    </div>
+    <h1>Заготовки</h1>
+    <div class="recipe-container">
+        <table>
+            <tr>
+                <th>Наименование</th>
+                <th>Ингредиенты</th>
+                <th>Количество</th>
+                <th>Технология приготовления</th>
+            </tr>
+            <tr>
+                <td>Сахарный сироп</td>
+                <td>
+                    Сахар<br>
+                    Кипяток
+                </td>
+                <td>
+                    400 г<br>
+                    400 мл
+                </td>
+                <td>
+                    Бокал: Шейкер / Стеклянная банка<br>
+                    Метод приготовления:<br>
+                    <ol>
+                        <li>Перемешать сахар до полного растворения.</li>
+                        <li>Дождаться остывания.</li>
+                        <li>Перелить в соусник.</li>
+                    </ol>
+                </td>
+            </tr>
+            <tr>
+                <td>Саур микс</td>
+                <td>
+                    Сахарный сироп<br>
+                    Вода<br>
+                    Лимонный сок
+                </td>
+                <td>
+                    265 мл<br>
+                    265 мл<br>
+                    265 мл
+                </td>
+                <td>
+                    Бокал: Шейкер / Стеклянная банка<br>
+                    Метод приготовления: Билд<br>
+                    Перелить в соусник
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

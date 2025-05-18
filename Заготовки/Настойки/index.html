@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Настойки</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            font-size: 2rem;
+            color: #333;
+            margin: 20px 0;
+            text-align: center;
+        }
+        .back-button-container {
+            width: 90%;
+            max-width: 400px;
+            margin: 10px 0;
+        }
+        .recipe-container {
+            width: 90%;
+            max-width: 600px;
+            margin-bottom: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 15px;
+            background-color: white;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: left;
+            font-size: 1rem;
+        }
+        th {
+            background-color: #6200ea;
+            color: white;
+        }
+        a {
+            text-decoration: none;
+            width: 100%;
+        }
+        button {
+            padding: 15px;
+            font-size: 1.2rem;
+            border: none;
+            border-radius: 8px;
+            background-color: #6200ea;
+            color: white;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            width: 100%;
+        }
+        button:hover {
+            background-color: #3700b3;
+        }
+        .back-button {
+            background-color: #757575;
+        }
+        .back-button:hover {
+            background-color: #616161;
+        }
+        ol {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 1.5rem;
+            }
+            th, td {
+                font-size: 0.9rem;
+                padding: 8px;
+            }
+            button {
+                font-size: 1rem;
+                padding: 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="back-button-container">
+        <a href="../../zagotowki.html"><button class="back-button">Назад</button></a>
+    </div>
+    <h1>Настойки</h1>
+    <div class="recipe-container">
+        <table>
+            <tr>
+                <th>Наименование</th>
+                <th>Ингредиенты</th>
+                <th>Количество</th>
+                <th>Технология приготовления</th>
+            </tr>
+            <tr>
+                <td>Настойка Джин на малине 1л</td>
+                <td>
+                    Джин хаус<br>
+                    Малина С/М<br>
+                    Сахарный сироп<br>
+                    Цедра лайма<br>
+                    Гвоздика
+                </td>
+                <td>
+                    800 мл<br>
+                    800 г<br>
+                    150 мл<br>
+                    1,5 шт<br>
+                    7 шт
+                </td>
+                <td>
+                    <ol>
+                        <li>Настаивать 10 дней.</li>
+                        <li>Процедить в бутылки 0.5 литра.</li>
+                        <li>Хранить в холодильнике.</li>
+                    </ol>
+                </td>
+            </tr>
+            <tr>
+                <td>Настойка виноградная</td>
+                <td>
+                    Виноград красный<br>
+                    Водка хаус<br>
+                    Гвоздика<br>
+                    Корица палочки<br>
+                    Вода<br>
+                    Сахар<br>
+                    Апельсиновая цедра
+                </td>
+                <td>
+                    1000 г<br>
+                    1000 мл<br>
+                    8 шт<br>
+                    2 шт<br>
+                    500 мл<br>
+                    400 г<br>
+                    60 г
+                </td>
+                <td>
+                    <ol>
+                        <li>В горячий сахарный сироп добавляем специи, цедру и выливаем водку.</li>
+                        <li>Настаиваем 2 часа.</li>
+                        <li>Виноград слегка разминаем, чтобы он пустил сок.</li>
+                        <li>Выливаем все в виноград.</li>
+                        <li>Настаиваем 1 месяц.</li>
+                        <li>Процедить через марлю и разлить в бутылки 0.7л.</li>
+                        <li>Хранить в холодильнике.</li>
+                    </ol>
+                </td>
+            </tr>
+            <tr>
+                <td>Настойка лимончелло</td>
+                <td>
+                    Цедра лимона (1 кг)<br>
+                    Водка хаус<br>
+                    Вода<br>
+                    Сахар
+                </td>
+                <td>
+                    1000 г<br>
+                    1000 мл<br>
+                    700 мл<br>
+                    600 мл
+                </td>
+                <td>
+                    <ol>
+                        <li>Снимаем цедру с 1 кг лимонов (без белой части на цедре).</li>
+                        <li>Заливаем водкой и настаиваем 14 дней.</li>
+                        <li>Спустя 2 недели отцеживаем и соединяем с сахарным сиропом.</li>
+                        <li>Размешиваем и настаиваем еще один день.</li>
+                        <li>Разливаем по бутылкам.</li>
+                    </ol>
+                </td>
+            </tr>
+            <tr>
+                <td>Бурбон на вишне</td>
+                <td>
+                    Вишня с/м<br>
+                    Бурбон хаус
+                </td>
+                <td>
+                    500 г<br>
+                    1000 г
+                </td>
+                <td>
+                    <ol>
+                        <li>Смешать все ингредиенты.</li>
+                        <li>Настаивать 14 дней.</li>
+                        <li>Процедить в бутылки 0.5 литра.</li>
+                        <li>Хранить в холодильнике.</li>
+                    </ol>
+                </td>
+            </tr>
+            <tr>
+                <td>Настойка ежевичная ликёр</td>
+                <td>
+                    Ежевика с/м<br>
+                    Водка хаус<br>
+                    Сахар<br>
+                    Вода
+                </td>
+                <td>
+                    600 г<br>
+                    600 мл<br>
+                    400 г<br>
+                    120 мл
+                </td>
+                <td>
+                    <ol>
+                        <li>Смешать все ингредиенты и размешать до растворения сахара.</li>
+                        <li>Настаивать 14 дней.</li>
+                        <li>Хранить в холодильнике.</li>
+                        <li>Процедить через марлю и разлить в бутылки 0.7л.</li>
+                        <li>Хранить в холодильнике.</li>
+                    </ol>
+                </td>
+            </tr>
+            <tr>
+                <td>Настойка ананасовая</td>
+                <td>
+                    Ананас очищенный (брутто)<br>
+                    Водка хаус<br>
+                    Сахар тростниковый<br>
+                    Кокосовая стружка
+                </td>
+                <td>
+                    1300 г<br>
+                    600 г<br>
+                    100 мл<br>
+                    50 мл
+                </td>
+                <td>
+                    <ol>
+                        <li>Очищенный ананас режем на кубики.</li>
+                        <li>Добавить кокосовую стружку, водку, сахар.</li>
+                        <li>Размешиваем и настаиваем 14 дней.</li>
+                        <li>Отцеживаем и разливаем по бутылкам.</li>
+                    </ol>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
