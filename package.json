@@ -1,0 +1,7 @@
+{
+  "name": "TexBar",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "echo 'This is a static site'"
+  }
+}
